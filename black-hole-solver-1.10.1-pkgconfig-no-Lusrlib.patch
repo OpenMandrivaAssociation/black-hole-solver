@@ -1,0 +1,17 @@
+diff -up black-hole-solver-1.10.1/libblack-hole-solver.pc.in.omv~ black-hole-solver-1.10.1/libblack-hole-solver.pc.in
+--- black-hole-solver-1.10.1/libblack-hole-solver.pc.in.omv~	2020-11-22 00:21:49.055099994 +0100
++++ black-hole-solver-1.10.1/libblack-hole-solver.pc.in	2020-11-22 00:22:03.873261016 +0100
+@@ -1,12 +1,9 @@
+ prefix="@CMAKE_INSTALL_PREFIX@"
+ exec_prefix=${prefix}
+-libdir=${exec_prefix}/lib
+-includedir=${prefix}/include
+ 
+ Name:  Black Hole Solitaire Solver
+ Description: Library for Solving Black Hole and All in a Row Solitaires
+ Version: @VERSION@
+ URL: http://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/
+-Libs: -L${libdir} -lblack_hole_solver
++Libs: -lblack_hole_solver
+ Libs.private: -lm
+-Cflags: -I${includedir}

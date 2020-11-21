@@ -10,6 +10,7 @@ Release: 1
 # The entire source code is MIT except xxHash-0.6.5/ which is BSD
 License: MIT and BSD
 Source0: https://fc-solve.shlomifish.org/downloads/fc-solve/%{basen}-%{version}.tar.xz
+Patch0: black-hole-solver-1.10.1-pkgconfig-no-Lusrlib.patch
 URL: https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/
 Requires: %{libname}%{?_isa} = %version-%release
 Summary: The Black Hole Solitaire Solver Executable
