@@ -6,7 +6,7 @@
 
 Name: %{basen}
 Version: 1.10.1
-Release: 1
+Release: 2
 # The entire source code is MIT except xxHash-0.6.5/ which is BSD
 License: MIT and BSD
 Source0: https://fc-solve.shlomifish.org/downloads/fc-solve/%{basen}-%{version}.tar.xz
