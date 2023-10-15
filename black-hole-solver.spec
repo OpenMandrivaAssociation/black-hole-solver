@@ -5,8 +5,8 @@
 %define develname %mklibname -d %{basen}
 
 Name: %{basen}
-Version: 1.10.1
-Release: 2
+Version: 1.12.0
+Release: 1
 # The entire source code is MIT except xxHash-0.6.5/ which is BSD
 License: MIT and BSD
 Source0: https://fc-solve.shlomifish.org/downloads/fc-solve/%{basen}-%{version}.tar.xz
